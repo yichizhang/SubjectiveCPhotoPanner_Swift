@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		122941E61AAA5A3300782A2C /* SCImagePanScrollBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122941E51AAA5A3300782A2C /* SCImagePanScrollBarView.swift */; };
 		12FDCBF51AA8CD8A00993082 /* SCImagePanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FDCBF41AA8CD8A00993082 /* SCImagePanViewController.swift */; };
 		A87FEEDA18B0575300E53BD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87FEED918B0575300E53BD7 /* Foundation.framework */; };
 		A87FEEDC18B0575300E53BD7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87FEEDB18B0575300E53BD7 /* CoreGraphics.framework */; };
@@ -23,7 +24,6 @@
 		A87FEF0C18B0578500E53BD7 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87FEF0B18B0578500E53BD7 /* CoreMotion.framework */; };
 		A87FEF0F18B057B400E53BD7 /* SCRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A87FEF0E18B057B400E53BD7 /* SCRootViewController.m */; };
 		A87FEF1118B05C1C00E53BD7 /* melbourne.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A87FEF1018B05C1C00E53BD7 /* melbourne.jpg */; };
-		A87FEF1418B06A5300E53BD7 /* SCImagePanScrollBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = A87FEF1318B06A5300E53BD7 /* SCImagePanScrollBarView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		122941E51AAA5A3300782A2C /* SCImagePanScrollBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCImagePanScrollBarView.swift; sourceTree = "<group>"; };
 		12FDCBF31AA8CD8900993082 /* SubjectiveCImagePan-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SubjectiveCImagePan-Bridging-Header.h"; sourceTree = "<group>"; };
 		12FDCBF41AA8CD8A00993082 /* SCImagePanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCImagePanViewController.swift; sourceTree = "<group>"; };
 		A87FEED618B0575300E53BD7 /* SubjectiveCImagePan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SubjectiveCImagePan.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,8 +60,6 @@
 		A87FEF0D18B057B400E53BD7 /* SCRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCRootViewController.h; sourceTree = "<group>"; };
 		A87FEF0E18B057B400E53BD7 /* SCRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCRootViewController.m; sourceTree = "<group>"; };
 		A87FEF1018B05C1C00E53BD7 /* melbourne.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = melbourne.jpg; sourceTree = "<group>"; };
-		A87FEF1218B06A5300E53BD7 /* SCImagePanScrollBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCImagePanScrollBarView.h; sourceTree = "<group>"; };
-		A87FEF1318B06A5300E53BD7 /* SCImagePanScrollBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCImagePanScrollBarView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,8 +126,7 @@
 				A87FEF0D18B057B400E53BD7 /* SCRootViewController.h */,
 				A87FEF0E18B057B400E53BD7 /* SCRootViewController.m */,
 				12FDCBF41AA8CD8A00993082 /* SCImagePanViewController.swift */,
-				A87FEF1218B06A5300E53BD7 /* SCImagePanScrollBarView.h */,
-				A87FEF1318B06A5300E53BD7 /* SCImagePanScrollBarView.m */,
+				122941E51AAA5A3300782A2C /* SCImagePanScrollBarView.swift */,
 				A87FEEEB18B0575300E53BD7 /* Images.xcassets */,
 				A87FEEE018B0575300E53BD7 /* Supporting Files */,
 				12FDCBF31AA8CD8900993082 /* SubjectiveCImagePan-Bridging-Header.h */,
@@ -265,7 +263,7 @@
 			files = (
 				A87FEEEA18B0575300E53BD7 /* SCAppDelegate.m in Sources */,
 				A87FEEE618B0575300E53BD7 /* main.m in Sources */,
-				A87FEF1418B06A5300E53BD7 /* SCImagePanScrollBarView.m in Sources */,
+				122941E61AAA5A3300782A2C /* SCImagePanScrollBarView.swift in Sources */,
 				A87FEF0F18B057B400E53BD7 /* SCRootViewController.m in Sources */,
 				12FDCBF51AA8CD8A00993082 /* SCImagePanViewController.swift in Sources */,
 			);
