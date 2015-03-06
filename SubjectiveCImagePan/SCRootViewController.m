@@ -7,7 +7,8 @@
 //
 
 #import "SCRootViewController.h"
-#import "SCImagePanViewController.h"
+#import "SubjectiveCImagePan-Swift.h"
+@import CoreMotion;
 
 @interface SCRootViewController ()
 @property (nonatomic, strong) SCImagePanViewController *imagePanViewController;
